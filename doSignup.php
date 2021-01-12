@@ -17,8 +17,8 @@ if (mysqli_num_rows($result) == 1) {
     $message .= "<a href='signup.php'>Go Back</a>";
 } else {
     $roundedHeight = $height * 100;
-    $query = "INSERT INTO patient (id, username, password, height, weight,birthdate,activeness)
-            VALUES ('NULL','$username',SHA1('$password'),'$roundedHeight','$weight','$dob','$activeness')";
+    $query = "INSERT INTO patient (username, password, height, weight,birthdate,activeness)
+            VALUES ($username',SHA1('$password'),'$roundedHeight','$weight','$dob','$activeness')";
     
     $result = mysqli_query($link, $query) or die;
     
