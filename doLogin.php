@@ -15,7 +15,7 @@ if (isset($_POST['username'])) {
         session_start();
         $_SESSION['username'] = $username;
         $message = "Success!<br>";
-        $message .= "<a href='home.php'>Make an exercise entry</a>";
+        $message .= "<a href='exerciseEntry.php'>Make an exercise entry</a>";
     } else {
         $message = "Wrong Credential!<br>";
         $message .= "<a href='login.php'>Try login again</a>";
