@@ -1,7 +1,6 @@
 <!-- Michell Tan Shiqi 19030685 -->
 <!DOCTYPE html>
 <html lang="en">
-    <
     <head>
         <title>Sign Up - Yishun Community Hospital</title>
         <meta charset="utf-8">
